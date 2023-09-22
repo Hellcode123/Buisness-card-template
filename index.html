@@ -1,27 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet"href="my buisness card.css">
   <style>
     body{
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  
-  height: 100%;
+  font-size:1vh;
 }
-.box{
-  height: 100px;
-  background-color: grey;
-  width:100px;
+.main{
+  height: 30%;
+  width: 90%;
+  border:;
+  background-color: black;
   display: flex;
+  flex-direction: column;
+}
+.up{
+  
+  height: 10%;
+  background-color: red;
+  width: 100%;
+  border: solid black 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: ;
+  flex-grow: ;
+}
+.b{
+  margin-bottom: 2px;
+  margin: 2px;
+  height: 100%;
+  width: 25%;
+  background-color: dodgerblue;
+}
+.design{
+  flex-grow: ;
+  width: 10%;
+}
+.blank{
+  width: 60%;
+}
+.github{
+  flex-grow: ;
+  width: 10%;
+}
+.project{
+  flex-grow: ;
+  width: 10%;
+}
+.resume{
+  flex-grow: ;
+  width: 10%;
+}
+.down{
+  
+  height: 90%;
+  background-color: blue;
+  width: 100%;
+  border: solid black 1px; 
+  display: flex;
+  flex-direction: row;
+    
+}
+.i{
+height: 100%;
+border: solid black 1px;
+}
+.left{
+  width:40%;
+  background-color: grey;
+}
+.top{
+  top: 0;
+  margin: 2px;
+  height: 68%;
+  background-color:red;
+}
+.bottom{
+  bottom: 0;
+  margin: 2px;
+  height: 30%;
+  background-color:blue;
+}
+.right{
+  width: 60%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  background-color: purple;
+  height: ;
+  margin: 2px;
+  height: 40%;
+}
+.degree{
+  background-color: blue;
+  margin: 2px;
+  height: 10%;
+}
+.about{
+  background-color: orange;
+  height: 50%;
+  margin: 2px;
 }
   </style>
-  
-  <title>My busisness card</title>
+  <meta charset="utf-8"name="viewport"width="device-width,intial-scale="1.0">
+  <title>My buisness card</title>
 </head>
 <body>
   
-    <div class="box"></div>
-  
+  <div class="main">
+    
+    <div class="up">
+      <div class="b design">design</div>
+      <div class="b blank">blank</div>
+      <div class="b resume">resume</div>
+      <div class="b project">project</div>
+      <div class="b github">github</div>
+    </div>
+    
+    <div class="down">
+      <div class="i left">
+        <div class="top">photo</div>
+        <div class="bottom">blank</div>
+        
+      </div>
+      
+     <div class="i right">
+       <div class="name">name</div>
+       <div class="degree">degree</div>
+       <div class="about">about</div>
+     </div>
+    </div>
+  </div>
 </body>
-</html>
+  </html>
